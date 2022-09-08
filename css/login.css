@@ -1,0 +1,91 @@
+body {
+
+	position: relative;
+}
+::placeholder{
+	color: white;
+	font-size: 0.8em;
+}
+
+.body-login {
+
+	background: ;
+	padding: 4em;
+}
+.body-login .login-content{
+
+	margin: auto;
+  	width: 50%;
+  	background: ;
+  	padding: 10px;
+
+  	display: grid;
+  	grid-template-columns: auto;
+  	grid-auto-rows: auto;
+  	grid-gap: 2em;
+
+  	border: 5px solid blue;
+
+}
+
+.body-login .login-content > div{
+
+	background: ;
+	width: 100%;
+}
+.body-login .login-content .login-title{
+
+	text-align: center;
+}
+.body-login .login-content .login-title > h1{
+
+	font-size: 5em;
+
+  	color: white;
+}
+.body-login .login-content .username > input{
+
+
+}
+.body-login .login-content .username{
+
+	padding: ;
+	display: grid;
+  	grid-template-columns: auto;
+  	grid-auto-rows: auto;
+}
+.body-login .login-content .username > input{
+
+	padding: 1em;
+	grid-row: 1/2;
+
+	background: none;
+	border-color: white;
+	color: white;
+}
+.body-login .login-content .password{
+
+	display: grid;
+  	grid-template-columns: auto;
+  	grid-auto-rows: auto;
+}
+.body-login .login-content .password > input{
+
+	padding: 1em;
+	background: none;
+	border-color: white;
+	color: white;
+}
+.body-login .login-content .submit > input{
+
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	padding: 1em;
+	background: blue;
+	border: none;
+}
+.body-login .login-content .submit > input:hover{
+
+	background: darkblue;
+}
